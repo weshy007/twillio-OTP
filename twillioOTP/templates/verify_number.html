@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>verify number</title>
+</head>
+<body>
+    <form method="POST" action="">
+        {% csrf_token %}
+        <input type="text" name="phone_no" placeholder="phone_no"><br>
+        <input type="submit" value="send code">
+    </form>
+</body>
+</html>
